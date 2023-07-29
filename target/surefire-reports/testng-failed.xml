@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="ReportingManager.Setup"/>
+  </listeners>
+  <test thread-count="5" name="D:/RestfulBookerApiEndToEndTestFramework/pom.xml(failed)" verbose="0">
+    <classes>
+      <class name="TicketBooking.BookingTests">
+        <methods>
+          <include name="createBookingTest"/>
+        </methods>
+      </class> <!-- TicketBooking.BookingTests -->
+    </classes>
+  </test> <!-- D:/RestfulBookerApiEndToEndTestFramework/pom.xml(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

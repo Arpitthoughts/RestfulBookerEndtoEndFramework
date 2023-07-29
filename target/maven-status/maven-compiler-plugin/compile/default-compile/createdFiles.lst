@@ -1,0 +1,6 @@
+utils\DataGeneratorKeys.class
+utils\RandomDataGenerate.class
+ReportingManager\ExtentReportManager.class
+ReportingManager\Setup.class
+org\example\StreamsDemo.class
+utils\RandomDataGenerate$1.class
