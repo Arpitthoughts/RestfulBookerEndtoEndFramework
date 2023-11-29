@@ -1,12 +1,16 @@
 package TicketBooking.LombokPojo;
 
-import lombok.Builder;
-import lombok.Data;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.*;
 
 @Data
-@Builder
+@Builder()
+@AllArgsConstructor
+@RequiredArgsConstructor
+@EqualsAndHashCode
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class BookingLombokdates {
 
-    private String checkin;
-    private String checkout;
+    private String checkin="2018-01-01";
+    private String checkout="2019-01-01";
 }

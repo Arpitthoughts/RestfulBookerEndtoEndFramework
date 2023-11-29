@@ -48,19 +48,14 @@ public class Payloads {
     }
 
     public static BookingPojo getCreateBookingPayloadAsPojo() {
-        BookingPojo bookingPojo = new BookingPojo();
-        bookingPojo.setFirstname(RandomDataGenerate.getRandomDataFor(DataGeneratorKeys.FIRST_NAME));
-        bookingPojo.setLastname(RandomDataGenerate.getRandomDataFor(DataGeneratorKeys.LAST_NAME));
-        bookingPojo.setTotalprice(RandomDataGenerate.getRandomTotalPrice());
-        bookingPojo.setDepositpaid(true);
 
-        Bookingdates bookingdates = new Bookingdates();
-        bookingdates.setCheckin("2018-01-01");
-        bookingdates.setCheckout("2019-01-01");
-        bookingPojo.setBookingdates(bookingdates);
-        bookingPojo.setAdditionalneeds("Lunch");
+        Bookingdates bookingdates =Bookingdates.builder().checkin("2018-01-01").checkout("2019-01-01").build();
 
-        return bookingPojo;
+        return BookingPojo.builder().firstname(RandomDataGenerate.getRandomDataFor(DataGeneratorKeys.FIRST_NAME))
+                .lastname(RandomDataGenerate.getRandomDataFor(DataGeneratorKeys.LAST_NAME))
+                .totalprice(RandomDataGenerate.getRandomNumber())
+                .depositpaid(true).bookingdates(bookingdates).additionalneeds("Lunch").build();
+
     }
 
 

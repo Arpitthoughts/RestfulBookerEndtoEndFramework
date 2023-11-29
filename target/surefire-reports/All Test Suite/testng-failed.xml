@@ -8,7 +8,7 @@
     <classes>
       <class name="TicketBooking.BookingTests">
         <methods>
-          <include name="createBookingTest"/>
+          <include name="createBookingAndReceiveResponse"/>
         </methods>
       </class> <!-- TicketBooking.BookingTests -->
     </classes>

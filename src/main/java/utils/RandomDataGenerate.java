@@ -22,6 +22,10 @@ public static Faker faker=new Faker();
            return Integer.parseInt(faker.number().digits(3));
         }
 
+    public static int getRandomNumber(){
+        return faker.number().numberBetween(0,3);
+    }
+
 
 
 }

@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-All_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="TicketBooking.BookingTests" class="method navigator-link" hash-for-method="createBookingTest">createBookingTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TicketBooking.BookingTests" class="method navigator-link" hash-for-method="createBookingAndReceiveResponse">createBookingAndReceiveResponse</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-All_Test_Suite -->
@@ -126,9 +126,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="createBookingTest">
-                  </a> <!-- createBookingTest -->
-                  <span class="method-name">createBookingTest</span>
+                  <a name="createBookingAndReceiveResponse">
+                  </a> <!-- createBookingAndReceiveResponse -->
+                  <span class="method-name">createBookingAndReceiveResponse</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -151,6 +151,7 @@
       &lt;class name=&quot;TicketBooking.BookingTests&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;createBookingTest&quot;/&gt;
+          &lt;include name=&quot;createBookingAndReceiveResponse&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- TicketBooking.BookingTests --&gt;
     &lt;/classes&gt;
@@ -194,14 +195,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'createBookingTest')
+data.setCell(0, 1, 'createBookingAndReceiveResponse')
 data.setCell(0, 2, 'TicketBooking.BookingTests')
-data.setCell(0, 3, 3783);
+data.setCell(0, 3, 4843);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -216,9 +217,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-All_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TicketBooking.BookingTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">createBookingTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-All_Test_Suite" class="panel">
@@ -229,7 +237,7 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">TicketBooking.BookingTests</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">createBookingTest</span>
+                <span class="method-name">createBookingAndReceiveResponse</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->

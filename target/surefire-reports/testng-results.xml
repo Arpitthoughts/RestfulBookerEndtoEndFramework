@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-29T13:10:02 IST" name="All Test Suite" finished-at="2023-07-29T13:10:06 IST" duration-ms="4179">
+  <suite started-at="2023-08-07T08:35:54 IST" name="All Test Suite" finished-at="2023-08-07T08:35:59 IST" duration-ms="5138">
     <groups>
     </groups>
-    <test started-at="2023-07-29T13:10:02 IST" name="D:/RestfulBookerApiEndToEndTestFramework/pom.xml" finished-at="2023-07-29T13:10:06 IST" duration-ms="4179">
+    <test started-at="2023-08-07T08:35:54 IST" name="D:/RestfulBookerApiEndToEndTestFramework/pom.xml" finished-at="2023-08-07T08:35:59 IST" duration-ms="5138">
       <class name="TicketBooking.BookingTests">
-        <test-method signature="createBookingTest()[pri:0, instance:TicketBooking.BookingTests@5d0a1059]" started-at="2023-07-29T13:10:02 IST" name="createBookingTest" finished-at="2023-07-29T13:10:06 IST" duration-ms="3783" status="PASS">
+        <test-method signature="createBookingAndReceiveResponse()[pri:0, instance:TicketBooking.BookingTests@434a63ab]" started-at="2023-08-07T08:35:54 IST" name="createBookingAndReceiveResponse" finished-at="2023-08-07T08:35:59 IST" duration-ms="4843" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createBookingTest -->
+        </test-method> <!-- createBookingAndReceiveResponse -->
       </class> <!-- TicketBooking.BookingTests -->
     </test> <!-- D:/RestfulBookerApiEndToEndTestFramework/pom.xml -->
   </suite> <!-- All Test Suite -->
